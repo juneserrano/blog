@@ -111,3 +111,12 @@ ul{
 #latest-posts-header{
     color: var(--header-color);
 }
+
+/* FOOTER */
+footer{
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 3px solid var(--header-color);
+    color: var(--header-color);
+    font-weight: 600;
+}
