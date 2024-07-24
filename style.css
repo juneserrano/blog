@@ -10,10 +10,10 @@ html{ overflow-y: scroll; overflow-x: hidden;}
     --font-secondary: 'Montserrat Alternates', sans-serif;
 
     /* COLORS */
-    --main-color: #1A090D;
+    --main-color: #211A1D;
     --header-color: #7FD8BE;
-    --secondary-color: #E3C567;
-    --accent-color: #ED254E;
+    --secondary-color: #76449D;
+    --accent-color: #A9927D;
     --text-color: ghostwhite;
 
     /* SETTINGS */
@@ -38,10 +38,13 @@ body{
 #wordmark{
     text-decoration: none;
     color: var(--header-color);
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.2s ease-in;
 }
 #wordmark:hover{
     text-decoration: underline;
     text-decoration-thickness: 4.5px;
+    text-decoration-color: var(--accent-color);
 }
 
 /* TEXT SETIINGS (TS) */
@@ -52,7 +55,7 @@ h4,
 h5,
 h6 {
     font-family: var(--font-main);
-    color: var(--secondary-color);
+    color: var(--header-color);
     padding: 0;
 }
 
@@ -64,15 +67,17 @@ h6 {
     width: 100%;
 }
 .menu-a{
-    color: var(--accent-color);
+    color: var(--header-color);
     cursor: pointer;
     text-decoration: none;
+    background-color: transparent;
+    transition: background-color 0.2s ease-in;
     margin-left: 20px;
 }
 .menu-a:hover{
+    color: var(--main-color);
     background-color: var(--accent-color);
     text-decoration: none;
-    color: var(--main-color);
 }
 .menu-ul{
     display: inline-flex;
@@ -84,10 +89,10 @@ h6 {
 /* MAIN SECTION BODY (TS/MS) */
 #about-me{
     padding: 10px 25px 10px 25px;
-    border: 1.5px dashed var(--secondary-color);
+    border: 1.5px dashed var(--header-color);
 }
 #about-me p{
-    color: var(--secondary-color);
+    color: var(--header-color);
 }
 #about-me a{
     color: var(--text-color);
@@ -95,7 +100,7 @@ h6 {
     border-bottom: 1px solid var(--text-color);
 }
 #about-me a:hover{
-    background-color: var(--text-color);
+    background-color: var(--secondary-color);
     color: var(--main-color);
     text-decoration: none;
 }
@@ -106,17 +111,17 @@ ul{
 
 /* LATEST BULLETIN */
 #latest-posts{
-    border-bottom: 2px solid var(--header-color);
+    border-bottom: 2px solid var(--accent-color);
 }
 #latest-posts-header{
-    color: var(--header-color);
+    color: var(--accent-color);
 }
 
 /* FOOTER */
 footer{
     text-align: center;
     margin-top: 30px;
-    border-bottom: 3px solid var(--header-color);
-    color: var(--header-color);
+    border-bottom: 3px solid var(--accent-color);
+    color: var(--accent-color);
     font-weight: 600;
 }
