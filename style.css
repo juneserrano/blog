@@ -10,10 +10,10 @@ html{ overflow-y: scroll; overflow-x: hidden;}
     --font-secondary: 'Montserrat Alternates', sans-serif;
 
     /* COLORS */
-    --main-color: #211A1D;
-    --header-color: #7FD8BE;
+    --main-color: #A9927D;
+    --header-color: #D3FFE9;
     --secondary-color: #76449D;
-    --accent-color: #A9927D;
+    --accent-color: #211A1D;
     --text-color: ghostwhite;
 
     /* SETTINGS */
@@ -121,7 +121,7 @@ ul{
 footer{
     text-align: center;
     margin-top: 30px;
-    border-bottom: 3px solid var(--accent-color);
+    border-bottom: 2px solid var(--accent-color);
     color: var(--accent-color);
     font-weight: 600;
 }
