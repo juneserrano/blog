@@ -218,7 +218,7 @@ footer{
 MEDIA QUERIES
 
 */
-@media (max-width: 720px){
+@media screen and (max-width: 720px){
     :root{
         --font-scale: 1.4em;
     }
@@ -263,41 +263,6 @@ MEDIA QUERIES
     .menu-ul il{
         white-space: normal;
         width: fit-content;
-    }
-    .menu-a{
-        position: relative;
-    
-        color: var(--main-color);
-        
-        width: 300%;
-        height: 200%;
-    
-        cursor: pointer;
-    
-        text-decoration: none;
-    
-        margin-left: 20px;
-        z-index: -2;
-    }
-    .menu-a::before {
-        content: '';
-        position: absolute;
-    
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%; 
-    
-        background-color: transparent;
-        border-radius: 1px;
-    
-        z-index: -1;
-        transform: scale(1);
-        transition: transform 0.33s ease-in-out;
-    }
-    .menu-a:hover::before {
-        transform: scale(1.2);
-        background-color: var(--secondary-color);
     }
 
     h1{
