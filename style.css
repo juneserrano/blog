@@ -47,7 +47,7 @@ H1SETTINGS
 }
 body{
     max-width: var(--width);
-    min-height: 100vh;
+    max-height: 100vh;
 
     font-family: var(--font-secondary);
     font-size: var(--font-scale);
@@ -217,7 +217,7 @@ footer{
 
 MEDIA QUERIES
 
-*/
+
 @media screen and (max-width: 720px){
     :root{
         --font-scale: 1.4em;
@@ -274,3 +274,4 @@ MEDIA QUERIES
         text-align: center;
     }
 }
+*/
