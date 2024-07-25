@@ -143,7 +143,7 @@ TO-DO
 }
 .menu-a:hover::before {
     transform: scale(1.2);
-    background-color: var(--secondary-color);
+    background-color: #B89B82;
 }
 
 
@@ -217,7 +217,7 @@ footer{
 
 MEDIA QUERIES
 
-
+*/
 @media screen and (max-width: 720px){
     :root{
         --font-scale: 1.4em;
@@ -247,6 +247,7 @@ MEDIA QUERIES
             #top { top: 0; }
             #bottom { bottom: 0; }
     
+    /* NAV */
     #navigation{
         margin-top: 20px;
         margin-bottom: 20px;
@@ -264,8 +265,8 @@ MEDIA QUERIES
         white-space: normal;
         width: fit-content;
     }
-
     h1{
+        font-size: 2.8em;
         margin: auto;
     }
     #wordmark{
@@ -274,4 +275,3 @@ MEDIA QUERIES
         text-align: center;
     }
 }
-*/
